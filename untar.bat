@@ -1,18 +1,18 @@
 REM #########################################
-REM ####	LT Milbank Script		        	#####
-REM ####	20161101					            #####
-REM ####	Jeriel Juarbe{				        #####
-REM ####	Unpack TAR.GZ &				        #####
-REM ####	Unzip all ZIP's				        #####
-REM ####	USING 7z} 					          #####
+REM ####	LT Milbank Script	
+REM ####	20161101			
+REM ####	Jeriel Juarbe{	
+REM ####	Unpack TAR.GZ &		
+REM ####	Unzip all ZIP's	
+REM ####	USING 7z}
 REM #########################################
-REM #-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=--=--=--=-=--=-=-==-#
-REM #																									                                                  #
-REM #	This script is designed to be ran from the directory where your (filename.tar.gz) files reside	  #
-REM #	You must have 7z installed on your system													                              	#
-REM #	You must add the binary path for 7z to the windows Enviromental variable Path			            		#
-REM #	**IF you only have ZIP'd Files then comment out the first FOR loop.							                	#
-REM #-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=--=-=-=-=-=-=-=-=--=#
+REM #-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=--=--=--=-=--=-=-=
+REM #																									                     
+REM #	This script is designed to be ran from the directory where your (filename.tar.gz) files reside
+REM #	You must have 7z installed on your system			
+REM #	You must add the binary path for 7z to the windows Enviromental variable Path	
+REM #	**IF you only have ZIP'd Files then comment out the first FOR loop.	
+REM #-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=--=-=-=-=-=-=-=-=--
 @Echo Off
 mkdir tmp
 
