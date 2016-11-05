@@ -6,9 +6,9 @@
 #####################################
 #-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-																	#
 #	This script can be ran from anywhere on the Filesystem 
-#	You must have LogParser2.2 installed			
-#	You may need to run the following command to allow PS1 to run	
-#									
+#	You must have LogParser2.2 installed
+#	You may need to run the following command to allow PS1 to run
+#								
 #			C:\>	Set-Execution-Policy Unrestricted																	#
 #-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
