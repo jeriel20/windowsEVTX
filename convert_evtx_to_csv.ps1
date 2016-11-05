@@ -1,18 +1,16 @@
-#########################################
-####	Jeriel Juarbe Script		#####
-####	20161101					#####
-####	EVTX Conversions to CSV		#####
-####	USING LOGPARSER.EXE			#####
-#########################################
-#-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
-#																	#
-#	This script can be ran from anywhere on the Filesystem			#
-#	You must have LogParser2.2 installed							#
-#	You may need to run the following command to allow PS1 to run	#
-#																	#
-#			C:\>	Set-Execution-Policy Unrestricted				#
-#																	#
-#-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+#####################################
+####	Jeriel Juarbe Script	#####
+####	20161101		#####
+####	EVTX Conversions to CSV	#####
+####	USING LOGPARSER.EXE	#####
+#####################################
+#-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-																	#
+#	This script can be ran from anywhere on the Filesystem 
+#	You must have LogParser2.2 installed			
+#	You may need to run the following command to allow PS1 to run	
+#									
+#			C:\>	Set-Execution-Policy Unrestricted																	#
+#-=--=-=--=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 #Input from User#
 $folder_location = read-host "Please enter the full path of the file locations - IE: C:\Users\"
@@ -39,7 +37,7 @@ write-host "STANDBY while the conversion is completed........OUTPUT to STDOUT to
 #This date command below is to keep track of how long it took to convert the EVTX files to CSV
 date
 
-#This Foreach loop gets all the file names in the directiory specified and stores their names in an ARRAY for future use	#
+#This Foreach loop gets all the file names in the directiory specified and stores their names in an ARRAY for future use#
 $a = Get-Item $src_location
 foreach ($file in $a) {
 	$files_array += $file.Fullname
